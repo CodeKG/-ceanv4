@@ -619,7 +619,7 @@ function update(dt){
  else if(tooDeep){level=3;kind="critical";msg="🚨 ALARM – HÜLLE ÜBERLASTET! SOFORT AUFTAUCHEN! RUMPFBRUCH IN CA. "+breakT+" S";}
  else if(oxygen<12){level=3;kind="critical";msg="🚨 SAUERSTOFF AM LIMIT – NOCH CA. "+Math.max(1,Math.ceil(oxygen/o2Rate))+" S LUFT!";}
  else if(oxygen<25){level=2;kind="danger";msg="🚨 SAUERSTOFF KRITISCH – NOCH CA. "+Math.ceil(oxygen/o2Rate)+" S LUFT";}
- else if(hull<40){level=2;kind="danger";msg="🚨 RUMPFINTEGRITÄT KRITISCH – KEINE KOLLISIONEN MEHR!";}
+ else if(hull<40){level=2;kind="danger";msg="🚨 RUMPFZUSTAND KRITISCH – KEINE KOLLISIONEN MEHR!";}
  else if(stress>1){level=2;kind="danger";msg="⚠️ STRUKTURSPANNUNG HOCH – WEITER AUFTAUCHEN!";}
  else if(depth>safeDepth-100){level=1;msg="⚠️ DRUCKGRENZE IN "+Math.max(0,Math.floor(safeDepth-depth))+" M – NICHT TIEFER!";}
  else if(stabilize)msg="DRUCKSYSTEM WIRD STABILISIERT";

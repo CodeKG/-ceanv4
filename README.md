@@ -3,7 +3,8 @@
 V3-Build: Ein eigenständiges Tiefsee-Arcade-Spiel für Browser und GitHub Pages. Keine Installation, keine externen Bibliotheken.
 
 ## Starten
-`index.html` herunterladen und im aktuellen Browser öffnen oder das Repository mit GitHub Pages veröffentlichen.
+Benutze diesen Link in deinem Browser:
+https://codekg.github.io/-ceanv4/
 
 ## Steuerung
 - **Pfeil runter / S:** tiefer tauchen
@@ -21,7 +22,7 @@ V3-Build: Ein eigenständiges Tiefsee-Arcade-Spiel für Browser und GitHub Pages
 - Die Werkstatt zeigt Upgrade-Stufen und Kosten. Die Tiefenanzeige schätzt die erreichbare Tiefe anhand deiner Ausrüstung.
 - Anglerfische verursachen deutlich mehr Schaden als normale Fische.
 - Warnanzeigen melden kritischen Druck, Sauerstoffmangel, Rumpfschäden und Kollisionen.
-- Bei Rumpfversagen wird eine mehrstufige Implosionsanimation mit Lichtblitz, Schockwellen und Trümmern gezeigt.
+- Bei Rumpfversagen kommt eine Explosion, frag nicht wo die Logik dazu ist.
 - Ab 2.900 m erscheint das Titanic-Wrack; bei 3.800 m ist die Mission geschafft.
 
 ## GitHub Pages
@@ -30,12 +31,13 @@ V3-Build: Ein eigenständiges Tiefsee-Arcade-Spiel für Browser und GitHub Pages
 3. Branch `main` und Ordner `/ (root)` auswählen und speichern.
 
 ## Hinweis
-Das Spiel ist Fiktion und keine realistische technische Simulation. Das Tauchboot ist eine stilisierte, Titan-inspirierte Arcade-Darstellung, keine maßstabsgetreue technische Rekonstruktion.
-
+Bitti mich nicht verklagi
+ist alles Kunst und simuliert keine echten Ereignisse,
+der Name Titanic ist wegen dem Ziel Gewählt.
 
 ## V3 – Return to Surface
 - Ohne Druckschutz- und Rumpf-Upgrades liegt die sichere Grenze bei 500 m.
-- Unterhalb der persönlichen Tiefengrenze entsteht Druckschaden. Die Warnzentrale fordert zum sofortigen Auftauchen auf.
+- Unterhalb der persönlichen Tiefengrenze entsteht Druckschaden. Es sollte eine Warnung erscheinen zum sofortigen Auftauchen auf.
 - Druckschutz und Rumpfverstärkung erhöhen gemeinsam die sichere Maximal-Tiefe. Die Tiefenanzeige entspricht dieser Grenze.
 - Münzen erscheinen seltener; plane Sammelrouten und kaufe die nötigen Upgrades.
 - Die Titanic ist als großes, zerbrochenes Passagierschiff mit Decks, vier Schornsteinen, Mast und Rumpfdetails dargestellt.
@@ -43,10 +45,10 @@ Das Spiel ist Fiktion und keine realistische technische Simulation. Das Tauchboo
 
 
 ## V3.1 – Cleaner GUI, dramatischere Warnungen, schnelleres Tauchen
-- **Aufgeräumtes GUI:** schlanke Statusleiste (Tiefe, Druck, Rumpf, Sauerstoff, Münzen), kompakte Werkstatt unten, Bildschirmtasten nur noch auf Touch-Geräten. Die rote Markierung auf der Tiefenleiste zeigt die sichere Maximaltiefe.
+- **Aufgeräumtes GUI:** kleinere Statusleiste (Tiefe, Druck, Rumpf, Sauerstoff, Münzen), Werkstatt gui unten, Bildschirmtasten nur noch auf Touch-Geräten. Die rote Markierung auf der Tiefenleiste zeigt die sichere Maximaltiefe.
 - **Dramatischere Warnungen:** drei Alarmstufen mit pulsierendem/blinkendem Banner, rotem Randleuchten, Bildschirmwackeln, Risse im Sichtfenster bei niedrigem Rumpf, Sirene und Knarren (Ton mit **M** abschaltbar) sowie Countdown bis zum Rumpfbruch bzw. Sauerstoffende.
 - **Schneller tauchen:** Abstieg ca. 1,5× so schnell (aktiv ca. 42 m/s, passiv ca. 7,5 m/s), Aufstieg ca. 45 m/s. Münzen erscheinen etwas häufiger, damit Upgrades trotzdem erreichbar bleiben.
-- Fix: Hinweis-Einblendungen (Toast) verschwinden jetzt wieder.
+- Fix: Hinweis-Einblendungen verschwinden jetzt wieder.
 
 ## V3.2
 - Noch etwas schnelleres Sinken (aktiv ca. 42 m/s).
